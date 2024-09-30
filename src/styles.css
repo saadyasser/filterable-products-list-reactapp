@@ -1,0 +1,80 @@
+body {
+    font-family: "Roboto", sans-serif;
+  }
+  
+  h1 {
+    font-family: "Prompt", sans-serif;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  .container {
+    max-width: 90%;
+    margin-inline: auto;
+  }
+  
+  .mb-2 {
+    margin-bottom: 2rem;
+  }
+  
+  .layout {
+    margin-top: 5rem;
+    display: flex;
+    gap: 4rem;
+  }
+  
+  .layout aside {
+    padding-top: 2.5rem;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .search-wrapper {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  input {
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid #ccc;
+  }
+  
+  select {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid #ccc;
+  }
+  
+  .products-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3rem 2rem;
+  }
+  
+  article {
+    padding: 0.8rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 1rem;
+  }
+  
+  .product-price {
+    color: #a40a0a;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+  }
+  
